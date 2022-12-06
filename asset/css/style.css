@@ -1,0 +1,155 @@
+/* common code start */
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+}
+.container{
+	width: 90%;
+	margin: 0px auto;
+	border: 1px solid tomato;
+	display: flex;
+}
+img{
+	height: 100%;
+	width: 100%;
+	display: block;
+	
+}
+/* common code start */
+/* nav code start */
+.navbar-brand{
+	width: 10%;
+}
+.navbar-brand a{
+	color: rgba(0, 0, 0, 0.9);
+	font-size: 20px;
+	font-weight: 700;
+	display: inline-block;
+	padding: 10px 0px;
+	font-family:"Playfair Display", "Segoe UI", "Helvetica Neue", Arial;
+	text-decoration: none;
+}
+ul.navbar{
+	display: flex;
+	align-items: center;
+	justify-content: space=evenly;
+	width: 60%;
+	margin: 0px;
+	padding: 0px;
+}
+ul.navbar li{
+	list-style: none;
+}
+ul.navbar li a{
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px 20px;
+	display: inline-block;
+	transition: 0.5s all;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	text-decoration: none;
+}
+ul.navbar li a small{
+	color: #fff;
+	padding:4px;
+	background: #7832E2;
+	border-radius: 6px;
+}
+ul.navbar li a:hover{
+		color: rgba(0, 0, 0, 0.7);
+}
+.global-button{
+	display: flex;
+	justify-content: end;
+	width: 30%;
+}
+.global-button a{
+	color: #03A87C;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 3px 15px;
+	border: 1px solid #03A87C;
+	border-radius: 10px;
+	border-outline:  #03A87C;
+	display: inline-block;
+	transition: 0.5s all;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	text-decoration: none;
+}
+.global-button a:hover{
+	color: #fff;
+	background: #03A87C;
+}
+/* header code start */
+header .header-inner{
+	padding: 20px;
+}
+header .header-inner .header-content{
+	width: 50%;
+	padding: 40px 20px;
+	background: #e8f3ec;
+}
+header .header-inner .header-content h1{
+	color: #212529;
+	font-size: 40px;
+	font-weight: 700;
+	margin: 0px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+}
+header .header-inner .header-content h1{
+	color: #212529;
+	font-size: 40px;
+	font-weight: 700;
+	margin: 0px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+}
+header .header-inner .header-content p{
+	color: #212529;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 10px 0px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+}
+header .header-inner .header-content a{
+	color: #fff;
+	background: rgba(0, 0, 0, 0.9);
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px 25px;
+	border-radius: 8px;
+	display: inline-block;
+	transition: 0.5s all;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	text-decoration: none;
+}
+header .header-inner .header-content a:hover{
+		background: rgba(0, 0, 0, 1);
+}		
+	
+header .header-inner .header-poster{
+	width: 50%;
+}
+.section-inner{
+	padding: 40px;
+}
+.section-inner .banner-section{
+	width: 50%;
+	padding: 0px 10px;
+}
+section-firstpart .section-inner .banner-section  a{
+	color: #fff;
+	font-size: 24px;
+	line-height: 29px;
+	font-weight: 700;
+	margin: 0px;
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	display: inline-block;
+	transition: 0.5s all;
+	text-decoration: none;
+}
+section-firstpart .section-inner .banner-section a:hover{
+	color:  #2CAF99;
+}
